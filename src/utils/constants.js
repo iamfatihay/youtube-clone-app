@@ -12,6 +12,7 @@ import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 import logo1 from "../assets/y1.jpg";
+import demo from "../assets/Fatih-Ay-1.png";
 
 export const logo = logo1;
 
@@ -35,9 +36,9 @@ export const categories = [
   { name: 'WingTsun', icon: <DeveloperModeIcon />, },
 ];
 
-export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
-export const demoChannelUrl = '/channel/UCmXmlB4-HJytD7wek0Uo97A';
-export const demoVideoUrl = '/video/GDa8kZLNhJ4';
-export const demoChannelTitle = 'JavaScript Mastery';
-export const demoVideoTitle = 'Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI';
+export const demoThumbnailUrl = demo;
+export const demoChannelUrl = '/channel/UCFHKPdc7GXvxkkWDB3V6dTA';
+export const demoVideoUrl = '/video/b0IZo2Aho9Y';
+export const demoChannelTitle = 'Fatih Ay';
+export const demoVideoTitle = 'Build with me!';
 export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png'
