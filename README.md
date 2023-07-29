@@ -24,31 +24,28 @@ The YouTube Clone App is a web application built to mimic the popular video-shar
 ├── public
 │   ├── favicon.ico
 │   └── index.html
-├── src
-│   ├── App.js
-│   ├── assets
-│   │   ├── Fatih-Ay-1.png
-│   │   ├── logo.gif
-│   │   └── y1.jpg
-│   ├── components
-│   │   ├── ChannelCard.jsx
-│   │   ├── ChannelDetail.jsx
-│   │   ├── Feed.jsx
-│   │   ├── Loader.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── SearchBar.jsx
-│   │   ├── SearchFeed.jsx
-│   │   ├── Sidebar.jsx
-│   │   ├── VideoCard.jsx
-│   │   ├── VideoDetail.jsx
-│   │   ├── Videos.jsx
-│   │   └── index.js
-│   ├── index.css
-│   ├── index.js
-│   └── utils
-│       ├── constants.js
-│       └── fetchFromAPI.js
-└── youtube.gif
+└── src
+    ├── App.js
+    ├── assets
+    │   └── [your files...]
+    ├── components
+    │   ├── ChannelCard.jsx
+    │   ├── ChannelDetail.jsx
+    │   ├── Feed.jsx
+    │   ├── Loader.jsx
+    │   ├── Navbar.jsx
+    │   ├── SearchBar.jsx
+    │   ├── SearchFeed.jsx
+    │   ├── Sidebar.jsx
+    │   ├── VideoCard.jsx
+    │   ├── VideoDetail.jsx
+    │   ├── Videos.jsx
+    │   └── index.js
+    ├── index.css
+    ├── index.js
+    └── utils
+        ├── constants.js
+        └── fetchFromAPI.js
 ```
 
 ## Expected Outcomes
