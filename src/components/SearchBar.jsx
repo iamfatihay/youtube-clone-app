@@ -27,7 +27,7 @@ const SearchBar = () => {
         pl: 2,
         boxShadow: 'none',
         mr: { sm: 5 },
-        // maxHeight: 50,
+        width:"auto" ,
         display:'flex'
       }}
     >

@@ -33,7 +33,7 @@ const Feed = () => {
         <Typography
           className="copyright"
           variant="body2"
-          sx={{ mt: 1.5, color: "#fff", display: "flex", alignItems: "center", justifyContent: "center"}}
+          sx={{ mt: 1.5, color: "#fff", display: "flex", alignItems: "center", justifyContent: "center" }}
         >
           Copyright © 2023 Fatih Ay
         </Typography>
