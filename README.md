@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+<h1>You<span style="color: red" >Tube</span>  Clone APP</h1> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Link: https://youtube-clone-app-fay.vercel.app/
+## Description
 
-## Available Scripts
+The YouTube Clone App is a web application built to mimic the popular video-sharing platform, YouTube. This project serves as a foundation for creating a user-friendly and visually appealing platform where users can watch, share, and discover various videos.
+## Features
+- <span style="font-size: larger;">**Video Feed**</span>: The app provides a dynamic video feed that displays a collection of videos. Users can scroll through the feed to find intriguing content.
+- <span style="font-size: larger;">**Video Details**</span>: Upon selecting a video from the feed, users can view the video's details, such as the title, description and view count.
+- <span style="font-size: larger;">**Channel Pages**</span>: Each video is associated with a channel, and users can explore different channels to find content creators they enjoy.
+- <span style="font-size: larger;">**Search Functionality**</span>: The app includes a powerful search bar that allows users to search for specific videos, channels, or content topics.
+- <span style="font-size: larger;">**Loading Indicator**</span>: To enhance user experience during data fetching, the app includes a loading indicator that provides feedback when content is being loaded.
+- <span style="font-size: larger;">**Responsive Design**</span>: The YouTube Clone App is designed to work seamlessly on various devices, including desktops, tablets, and mobile phones.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Skeleton
+```
+.
+├── LICENSE
+├── README.md
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   └── index.html
+└── src
+    ├── App.js
+    ├── assets
+    │   └── [your files...]
+    ├── components
+    │   ├── ChannelCard.jsx
+    │   ├── ChannelDetail.jsx
+    │   ├── Feed.jsx
+    │   ├── Loader.jsx
+    │   ├── Navbar.jsx
+    │   ├── SearchBar.jsx
+    │   ├── SearchFeed.jsx
+    │   ├── Sidebar.jsx
+    │   ├── VideoCard.jsx
+    │   ├── VideoDetail.jsx
+    │   ├── Videos.jsx
+    │   └── index.js
+    ├── index.css
+    ├── index.js
+    └── utils
+        ├── constants.js
+        └── fetchFromAPI.js
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Expected Outcomes
+<div >
+<img width="660px" src="./youtube.gif"/>
+<img width="160px" src="./youtube1.gif"/>
+</div>
 
-### `npm test`
+## Technologies and Libraries
+- <span style="font-size: larger;">**React.js**</span>: A powerful JavaScript library for building interactive user interfaces.
+- <span style="font-size: larger;">**Axios**</span>: A popular HTTP client for making API requests and handling responses.
+- <span style="font-size: larger;">**React Router**</span>: A popular routing library for React applications, allowing for dynamic and intuitive navigation between different pages within the application.
+- <span style="font-size: larger;">**Material UI**</span>: A popular React UI framework following Google's Material Design, offering customizable components for creating modern and responsive user interfaces with ease. Its pre-designed elements and consistent theming simplify UI development, making it a top choice for developers building intuitive web applications.
+- <span style="font-size: larger;">**Rapid API**</span>: Rapid API enables developers to easily discover and access various APIs scattered across different service providers from a single place. This allows them to swiftly and with less complexity, retrieve data from different services or integrate specific functionalities into their applications.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To run the application on your local machine, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the project to your computer:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   git clone https://github.com/iamfatihay/youtube-clone-app.git
+2. Open your terminal and navigate to the project directory.
+   ```
+   cd youtube-clone-app
+3. Install the dependencies:
+    ```
+    npm install
+4. Start the application:
+    ```
+    npm start
+5. Open your web browser and visit  **http://localhost:3000**  to explore the Blog Application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribution
+We welcome and encourage contributions to the YouTube Clone App! If you would like to contribute to the project, please follow these steps:
 
-### `npm run eject`
+- Fork the repository on GitHub.
+- Create a new branch for your feature or bug fix.
+- Make your changes, ensuring that the code adheres to the project's coding standards.
+- Write appropriate tests for the new features or bug fixes.
+- Commit your changes with clear and descriptive commit messages.
+- Push your branch to your forked repository.
+- Open a pull request against the main repository, detailing the changes you have made.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Blog Application is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
